@@ -10,21 +10,17 @@ It works at least on Linux 3.7.3-101.fc17.x86_64
 
 Howto:
 
-make
+make;
+sudo insmod mydrv.ko;
+sudo rmmod mydrv.ko;
 
-sudo insmod mydrv.ko
+$dmesg|tail
 
-sudo rmmod mydrv.ko
-
-dmesg|tail
-
+<p>
 ..] <6>C++ driver started
-
 ..] cpp module installed
-
 ..] <6>Goodbye C++ driver
-
 ..] cpp module removed
-
+</p>
 
 In c++ code you shouldn't ust stdlibc++, rtti or exceptions
