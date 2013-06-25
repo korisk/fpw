@@ -1,0 +1,1 @@
+http://pograph.wordpress.com/2009/04/05/porting-cpp-code-to-linux-kernel/
